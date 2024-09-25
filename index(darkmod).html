@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/darkmood style/style.css" />
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__left">
+        <p class="main__title">Your Result</p>
+        <div class="main__score">
+          <p class="main__score-title">76</p>
+          <span class="main__score-undertitle">of 100</span>
+        </div>
+        <h1 class="main__h1">Great</h1>
+        <p class="main__bottom">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="main__right">
+        <div class="right__top">
+          <p class="right__top-title">Summary</p>
+          <a class="right__top-buttom" href="index.html">LIGHTMOD</a>
+        </div>
+        <div class="right__row">
+          <div class="right__row right__row--reaction">
+            <img
+              class="card__item--svg"
+              src="./assets/images/icon-reaction.svg"
+              alt="reaction-svg"
+            />
+            <p class="card__item--title">Reaction</p>
+            <span class="card__item-score reaction--end"
+              >80 <span class="card__item-score--gray">/ 100</span></span
+            >
+          </div>
+        </div>
+        <div class="right__row right__row--Memory">
+          <img
+            class="card__item--svg"
+            src="./assets/images/icon-memory.svg"
+            alt="memory-svg"
+          />
+          <p class="card__item--title">Memory</p>
+          <span class="card__item-score memory--end"
+            >92 <span class="card__item-score--gray">/ 100</span></span
+          >
+        </div>
+        <div class="right__row right__row--Verbal">
+          <img
+            class="card__item--svg"
+            src="./assets/images/icon-verbal.svg"
+            alt="verbal-svg"
+          />
+          <p class="card__item--title">Verbal</p>
+          <span class="card__item-score varbal--end"
+            >61 <span class="card__item-score--gray">/ 100</span></span
+          >
+        </div>
+        <div class="right__row right__row--Visual">
+          <img
+            class="card__item--svg"
+            src="./assets/images/icon-visual.svg"
+            alt="visual-svg"
+          />
+          <p class="card__item--title">Visual</p>
+          <span class="card__item-score visual--end"
+            >72 <span class="card__item-score--gray">/ 100</span></span
+          >
+        </div>
+        <button class="right__button">Continue</button>
+      </div>
+    </main>
+  </body>
+</html>
